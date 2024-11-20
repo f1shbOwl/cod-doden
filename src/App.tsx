@@ -17,7 +17,7 @@ function App() {
         const minutes = Math.floor((difference / (1000 * 60)) % 60);
         const seconds = Math.floor((difference / 1000) % 60);
 
-        setTimeLeft(`${days} dagar ${hours}h ${minutes}m ${seconds}s`);
+        setTimeLeft(`${days}d ${hours}t ${minutes}m ${seconds}s`);
       } else {
         setTimeLeft('Tiden är slut!');
       }
