@@ -19,7 +19,7 @@ function App() {
 
         setTimeLeft(`${days}d ${hours}t ${minutes}m ${seconds}s`);
       } else {
-        setTimeLeft('Tiden är slut!');
+        setTimeLeft('GAME OVER');
       }
     };
 
