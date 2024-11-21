@@ -1,0 +1,42 @@
+.games {
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.games p {
+    color: white;
+    align-content: flex-end;
+}
+
+.games .game img {
+    height: 150px;
+    width: 100px;
+}
+
+
+
+/* När skärmstorleken är större än 768px (t.ex. tablets och större skärmar) */
+@media (min-width: 768px) {
+    .games {
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* Lägg till en kolumn för bredare skärmar */
+    }
+
+    .games .game img {
+        height: 200px; /* Större bild på större skärmar */
+        width: 150px;
+    }
+}
+
+/* När skärmstorleken är större än 1024px (t.ex. stora skärmar) */
+@media (min-width: 1024px) {
+    .games {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Lägg till fler kolumner för ännu större skärmar */
+    }
+
+    .games .game img {
+        height: 250px; /* Större bilder för ännu större skärmar */
+        width: 200px;
+    }
+}
