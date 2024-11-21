@@ -4,13 +4,13 @@ import '../assets/css/games.css';
 function Games() {
 
     const [games] = useState([
-        { src: "/images/concord.png", alt: "concord" },
-        { src: "/images/destiny2.png", alt: "destiny2" },
-        { src: "/images/diablo4.png", alt: "diablo4" },
-        { src: "/images/erdtree.png", alt: "erdtree" },
-        { src: "/images/firstdescendant.png", alt: "firstdescendant" },
-        { src: "/images/helldivers.png", alt: "helldivers" },
-        { src: "/images/stellarblade.png", alt: "stellarblade" }
+        { src: `${import.meta.env.VITE_PUBLIC_URL}/images/concord.png`, alt: "concord" },
+        { src: `${import.meta.env.VITE_PUBLIC_URL}/images/destiny2.png`, alt: "destiny2" },
+        { src: `${import.meta.env.VITE_PUBLIC_URL}/images/diablo4.png`, alt: "diablo4" },
+        { src: `${import.meta.env.VITE_PUBLIC_URL}/images/erdtree.png`, alt: "erdtree" },
+        { src: `${import.meta.env.VITE_PUBLIC_URL}/images/firstdescendant.png`, alt: "firstdescendant" },
+        { src: `${import.meta.env.VITE_PUBLIC_URL}/images/helldivers.png`, alt: "helldivers" },
+        { src: `${import.meta.env.VITE_PUBLIC_URL}/images/stellarblade.png`, alt: "stellarblade" }
     ])
 
     return (
