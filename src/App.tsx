@@ -45,7 +45,11 @@ function App() {
             <div className='blooddrop'></div>
             <div className='blooddrop'></div>
           </section>
-        </div>      
+          <div className="links">
+            <span>Snart är ordningen återställd </span>
+            <a href='https://www.youtube.com/watch?v=4n4rBrs5-LY&t=12s' target='_blank'>Klicka här</a>  
+          </div>
+        </div>
     </div>
   );
 }

@@ -167,3 +167,17 @@ body {
   0% { top: 70px; }
   100% { top: 600px; }
 }
+
+.links {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+}
